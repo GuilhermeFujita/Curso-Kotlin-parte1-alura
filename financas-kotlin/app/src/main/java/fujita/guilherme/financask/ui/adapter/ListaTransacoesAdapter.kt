@@ -17,7 +17,7 @@ class ListaTransacoesAdapter(transacoes: List<String>) : BaseAdapter() {
     }
 
     override fun getItemId(position: Int): Long {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        return  0
     }
 
     override fun getCount(): Int {
