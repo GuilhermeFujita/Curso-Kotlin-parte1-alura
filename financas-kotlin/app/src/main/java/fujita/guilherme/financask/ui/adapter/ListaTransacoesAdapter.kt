@@ -21,6 +21,6 @@ class ListaTransacoesAdapter(transacoes: List<String>) : BaseAdapter() {
     }
 
     override fun getCount(): Int {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        return transacoes.size
     }
 }
